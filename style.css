@@ -1,0 +1,174 @@
+:root{
+   --maroon:rgb(74, 1, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.heading
+{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px;
+    /* margin-top: 40px; */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+    width: 200px;
+}
+
+.nav-item i{
+    margin: 10px;
+    color: rgb(195, 188, 188);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.nav-button{
+    background-color: var(--maroon);
+    color: white;
+}
+.nav-button:hover {
+    background-color: white;
+    border: solid var(--maroon) 1px;
+    color:  var(--maroon);
+}
+
+.main{
+    background-image: url("https://images.cb2.com/is/image/CB2/living_room-tours_S18_uno?fmt=jpg&qlt=40,0&wid=768");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sample{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.welcome{
+    padding-top: 20%;
+    padding-left: 5%;
+    color: white;
+}
+.welcome h3{
+    /* font-family: "Times New Roman", Times, serif; */
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;}
+
+.welcome h1{
+    /* line-height: 10px; */
+    font-size: 105px;
+    font-family: "Times New Roman", Times, serif;
+
+    }
+@media(max-width: 600px){
+    .welcome h1{
+        font-size: 50px;
+    
+        }
+        .nav-item i{
+            display: none;
+        }
+}
+
+#work{
+    background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/subtle-blue-grunge-texture-4.jpg");
+    background-attachment: fixed;
+    /* margin-bottom: 30px; */
+}
+
+#work img{
+    width: 300px;
+    height: 400px;
+    margin: 10%;
+}
+
+.work-button{
+    background-color: none;
+    border: solid var(--maroon) 1px;
+    color:  var(--maroon);
+}
+.work-button:hover {
+    background-color: var(--maroon);
+    color: white;
+}
+
+.about{
+    background-color: rgb(172, 170, 168);
+    padding: 30px;
+    height: 140vh;
+    align-items: center;
+    padding-top: 140px;
+    opacity: 0.8;
+}
+.about h1{
+    color: var(--maroon);
+
+}
+.about-img{
+    border: 5px solid var(--maroon);
+    /* position: relative; */
+    padding: 20px;
+    width: 370px;
+    height:470px;
+    
+}
+.about-img img{
+    /* position: absolute; */
+    width: 680px;
+    height:780px;
+    opacity: 1;
+}
+
+.underline{
+    background-color: var(--maroon);
+    width: 90px;
+    height: 5px;
+    
+}
+.m{
+    margin-bottom: 20%;
+}
+.img1{
+    position: relative;
+}
+.rosewood{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 252px;
+    height: 50px;
+    padding: 10px;
+    bottom: 0px;
+}
+.project-button{
+    width: 280px;
+    height: 80px;
+}
+.project-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sub{
+    margin-left: 200px;
+}
+.footer-form{
+    width: 180px;
+}
+
+.footer1{
+    height: 500px;
+    padding-top: 100px;
+}
